@@ -1,0 +1,354 @@
+[
+  {
+    "trip_id": "1f673e9f",
+    "version": 1,
+    "created_at": 1787643657.833793,
+    "updated_at": 1787643657.833793,
+    "constraints": {
+      "destination": "Lisbon, Portugal",
+      "start_date": "2026-09-01",
+      "end_date": "2026-09-05",
+      "duration_days": 5,
+      "group_size": 2,
+      "total_budget": 2500.0,
+      "currency": "USD",
+      "tier": "mid-range",
+      "preferences": [
+        "one splurge dinner",
+        "culture",
+        "scenic viewpoints"
+      ]
+    },
+    "category_caps": {
+      "flights": 625.0,
+      "lodging": 800.0,
+      "activities": 420.0,
+      "dining": 580.0,
+      "transit": 0.0,
+      "buffer": 75.0
+    },
+    "items": [
+      {
+        "id": "item_flight_01",
+        "day": 0,
+        "category": "flights",
+        "title": "Round-trip Flight to Lisbon, Portugal",
+        "description": "Direct / 1-Stop economy fare with carry-on included via Amadeus Flight API",
+        "cost_per_person": 312.5,
+        "total_cost": 625.0,
+        "locked": true,
+        "swappable": false,
+        "flexibility_tier": "hard",
+        "tags": [
+          "#flight",
+          "#essential"
+        ],
+        "location": null,
+        "time_slot": null,
+        "source_api": "Amadeus Flight API",
+        "booking_url": "https://www.google.com/travel/flights?q=flights+to+Lisbon, Portugal",
+        "alternatives": []
+      },
+      {
+        "id": "item_hotel_01",
+        "day": 0,
+        "category": "lodging",
+        "title": "Boutique Hotel in Lisbon, Portugal Center (4 Nights)",
+        "description": "4-star central hotel with breakfast included & high walkable score (Booking.com API)",
+        "cost_per_person": 400.0,
+        "total_cost": 800.0,
+        "locked": false,
+        "swappable": true,
+        "flexibility_tier": "standard",
+        "tags": [
+          "#hotel",
+          "#central"
+        ],
+        "location": null,
+        "time_slot": null,
+        "source_api": "Booking.com API",
+        "booking_url": "https://www.booking.com/searchresults.html?ss=Lisbon, Portugal",
+        "alternatives": [
+          {
+            "id": "alt_hotel_3star",
+            "title": "3-Star Cozi Hotel in Lisbon, Portugal",
+            "description": "Comfortable 3-star hotel near metro transit hub",
+            "cost_per_person": 300.0,
+            "total_cost": 600.0,
+            "category": "lodging",
+            "flexibility_tier": "flexible",
+            "booking_url": null,
+            "rating": 4.5
+          }
+        ]
+      },
+      {
+        "id": "item_day1_act1",
+        "day": 1,
+        "category": "activities",
+        "title": "Historic Lisbon, Portugal Walking Tour & Landmark Pass",
+        "description": "Guided walking tour covering key historical quarters and viewpoints.",
+        "cost_per_person": 35.0,
+        "total_cost": 70.0,
+        "locked": false,
+        "swappable": true,
+        "flexibility_tier": "standard",
+        "tags": [
+          "#culture",
+          "#walking"
+        ],
+        "location": null,
+        "time_slot": null,
+        "source_api": "Viator API",
+        "booking_url": null,
+        "alternatives": [
+          {
+            "id": "alt_day1_free_walk",
+            "title": "Free Self-Guided Walking Tour & Miradouro Views",
+            "description": "Self-guided audio map touring historic neighborhoods and scenic lookouts.",
+            "cost_per_person": 0.0,
+            "total_cost": 0.0,
+            "category": "activities",
+            "flexibility_tier": "free_alt",
+            "booking_url": null,
+            "rating": 4.5
+          }
+        ]
+      },
+      {
+        "id": "item_day1_dine",
+        "day": 1,
+        "category": "dining",
+        "title": "Welcome Dinner at Traditional Local Bistro",
+        "description": "Multi-course local specialties with regional wine pairings.",
+        "cost_per_person": 45.0,
+        "total_cost": 90.0,
+        "locked": false,
+        "swappable": true,
+        "flexibility_tier": "standard",
+        "tags": [
+          "#dining",
+          "#local"
+        ],
+        "location": null,
+        "time_slot": null,
+        "source_api": "Mock/Grounding API",
+        "booking_url": null,
+        "alternatives": []
+      },
+      {
+        "id": "item_day2_act1",
+        "day": 2,
+        "category": "activities",
+        "title": "Day Excursion: Guided Sintra & Pena Palace Tour",
+        "description": "Full guided tour with round-trip transport included.",
+        "cost_per_person": 65.0,
+        "total_cost": 130.0,
+        "locked": false,
+        "swappable": true,
+        "flexibility_tier": "flexible",
+        "tags": [
+          "#culture",
+          "#excursion"
+        ],
+        "location": null,
+        "time_slot": null,
+        "source_api": "Google Places / Viator API",
+        "booking_url": null,
+        "alternatives": [
+          {
+            "id": "alt_day2_free_excursion",
+            "title": "Self-Guided Sintra Day Trip (Public Train)",
+            "description": "Take public train and explore palace gardens independently.",
+            "cost_per_person": 12.0,
+            "total_cost": 24.0,
+            "category": "activities",
+            "flexibility_tier": "free_alt",
+            "booking_url": null,
+            "rating": 4.5
+          }
+        ]
+      },
+      {
+        "id": "item_day2_dine",
+        "day": 2,
+        "category": "dining",
+        "title": "Neighborhood Tapas & Market Tasting",
+        "description": "Sample local cheeses, cured meats, and craft beverages.",
+        "cost_per_person": 35.0,
+        "total_cost": 70.0,
+        "locked": false,
+        "swappable": true,
+        "flexibility_tier": "standard",
+        "tags": [
+          "#dining"
+        ],
+        "location": null,
+        "time_slot": null,
+        "source_api": "Mock/Grounding API",
+        "booking_url": null,
+        "alternatives": []
+      },
+      {
+        "id": "item_day3_act1",
+        "day": 3,
+        "category": "activities",
+        "title": "Sunset Sailing Cruise & Harbor Tour",
+        "description": "Catamaran cruise along the riverfront with drinks included.",
+        "cost_per_person": 45.0,
+        "total_cost": 90.0,
+        "locked": false,
+        "swappable": true,
+        "flexibility_tier": "standard",
+        "tags": [
+          "#sunset",
+          "#view"
+        ],
+        "location": null,
+        "time_slot": null,
+        "source_api": "Mock/Grounding API",
+        "booking_url": null,
+        "alternatives": [
+          {
+            "id": "alt_day3_sunset_view",
+            "title": "Sunset at Scenic Hilltop Viewpoint (Miradouro)",
+            "description": "Watch the sunset from famous public hilltop vantage points with local refreshments.",
+            "cost_per_person": 0.0,
+            "total_cost": 0.0,
+            "category": "activities",
+            "flexibility_tier": "free_alt",
+            "booking_url": null,
+            "rating": 4.5
+          }
+        ]
+      },
+      {
+        "id": "item_day3_dine_splurge",
+        "day": 3,
+        "category": "dining",
+        "title": "Splurge Tasting Menu at Michelin-Featured Restaurant",
+        "description": "5-course gourmet tasting menu showcasing modern culinary art.",
+        "cost_per_person": 135.0,
+        "total_cost": 270.0,
+        "locked": false,
+        "swappable": true,
+        "flexibility_tier": "splurge",
+        "tags": [
+          "#splurge",
+          "#dining",
+          "#gourmet"
+        ],
+        "location": null,
+        "time_slot": null,
+        "source_api": "Mock/Grounding API",
+        "booking_url": null,
+        "alternatives": [
+          {
+            "id": "alt_day3_dine_mid",
+            "title": "Elevated Seafood Grill & Local Wine Bar",
+            "description": "Fresh seafood platter in a chic contemporary dining room.",
+            "cost_per_person": 55.0,
+            "total_cost": 110.0,
+            "category": "dining",
+            "flexibility_tier": "standard",
+            "booking_url": null,
+            "rating": 4.5
+          }
+        ]
+      },
+      {
+        "id": "item_day4_act1",
+        "day": 4,
+        "category": "activities",
+        "title": "Food & Wine Tasting Workshop",
+        "description": "Guided sommelier workshop tasting regional wines & cheeses.",
+        "cost_per_person": 50.0,
+        "total_cost": 100.0,
+        "locked": false,
+        "swappable": true,
+        "flexibility_tier": "flexible",
+        "tags": [
+          "#wine",
+          "#tasting"
+        ],
+        "location": null,
+        "time_slot": null,
+        "source_api": "Mock/Grounding API",
+        "booking_url": null,
+        "alternatives": [
+          {
+            "id": "alt_day4_wine_free",
+            "title": "Self-Guided Wine Bar Hopping & Scenic Miradouro",
+            "description": "Visit casual local wine shops and enjoy views.",
+            "cost_per_person": 15.0,
+            "total_cost": 30.0,
+            "category": "activities",
+            "flexibility_tier": "free_alt",
+            "booking_url": null,
+            "rating": 4.5
+          }
+        ]
+      },
+      {
+        "id": "item_day4_dine",
+        "day": 4,
+        "category": "dining",
+        "title": "Authentic Fado Performance & Dinner",
+        "description": "Live traditional music performance with authentic dinner menu.",
+        "cost_per_person": 45.0,
+        "total_cost": 90.0,
+        "locked": false,
+        "swappable": true,
+        "flexibility_tier": "standard",
+        "tags": [
+          "#culture",
+          "#dining"
+        ],
+        "location": null,
+        "time_slot": null,
+        "source_api": "Mock/Grounding API",
+        "booking_url": null,
+        "alternatives": []
+      },
+      {
+        "id": "item_day5_act1",
+        "day": 5,
+        "category": "activities",
+        "title": "Artisan Market & Souvenir Browsing",
+        "description": "Explore local craft markets and neighborhood boutiques.",
+        "cost_per_person": 15.0,
+        "total_cost": 30.0,
+        "locked": false,
+        "swappable": true,
+        "flexibility_tier": "flexible",
+        "tags": [
+          "#shopping"
+        ],
+        "location": null,
+        "time_slot": null,
+        "source_api": "Mock/Grounding API",
+        "booking_url": null,
+        "alternatives": []
+      },
+      {
+        "id": "item_day5_dine",
+        "day": 5,
+        "category": "dining",
+        "title": "Farewell Roof-top Lunch & Coffee",
+        "description": "Relaxed rooftop lunch before airport departure.",
+        "cost_per_person": 30.0,
+        "total_cost": 60.0,
+        "locked": false,
+        "swappable": true,
+        "flexibility_tier": "standard",
+        "tags": [],
+        "location": null,
+        "time_slot": null,
+        "source_api": "Mock/Grounding API",
+        "booking_url": null,
+        "alternatives": []
+      }
+    ],
+    "change_reason": "Initial trip generated for Lisbon, Portugal ($2,500, 5 days, 2 travelers)"
+  }
+]

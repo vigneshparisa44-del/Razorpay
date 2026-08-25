@@ -1,0 +1,479 @@
+[
+  {
+    "trip_id": "395a75c9",
+    "version": 1,
+    "created_at": 1787644501.0590458,
+    "updated_at": 1787644501.0590458,
+    "constraints": {
+      "destination": "Tokyo, Japan",
+      "start_date": "2026-09-01",
+      "end_date": "2026-09-05",
+      "duration_days": 5,
+      "group_size": 2,
+      "total_budget": 1650.0,
+      "currency": "USD",
+      "tier": "budget",
+      "preferences": [
+        "value smart",
+        "free walking tours",
+        "local tascas"
+      ]
+    },
+    "category_caps": {
+      "flights": 462.0,
+      "lodging": 495.04,
+      "activities": 0.0,
+      "dining": 260.0,
+      "transit": 0.0,
+      "buffer": 432.96
+    },
+    "items": [
+      {
+        "id": "item_flight_01",
+        "day": 0,
+        "category": "flights",
+        "title": "Round-trip Flight to Tokyo, Japan",
+        "description": "Economy light direct fare via Amadeus API",
+        "cost_per_person": 231.0,
+        "total_cost": 462.0,
+        "locked": true,
+        "swappable": false,
+        "flexibility_tier": "hard",
+        "tags": [
+          "#flight",
+          "#essential"
+        ],
+        "location": null,
+        "location_name": "Tokyo, Japan Main International Airport",
+        "lat": null,
+        "lng": null,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Tokyo,+Japan+International+Airport",
+        "photo_url": null,
+        "time_slot": null,
+        "source_api": "Amadeus Flight API",
+        "booking_url": "https://www.google.com/travel/flights?q=flights+to+Tokyo, Japan",
+        "alternatives": []
+      },
+      {
+        "id": "item_hotel_01",
+        "day": 0,
+        "category": "lodging",
+        "title": "Cozy 3-Star Central Boutique Hotel in Tokyo, Japan (4 Nights)",
+        "description": "Charming 3-star hotel with complimentary breakfast near transit hub",
+        "cost_per_person": 247.52,
+        "total_cost": 495.04,
+        "locked": false,
+        "swappable": true,
+        "flexibility_tier": "standard",
+        "tags": [
+          "#hotel",
+          "#budget"
+        ],
+        "location": null,
+        "location_name": "Tokyo, Japan City Center",
+        "lat": null,
+        "lng": null,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Cozy+3-Star+Central+Boutique+Hotel+in+Tokyo,+Japan",
+        "photo_url": null,
+        "time_slot": null,
+        "source_api": "Booking.com API",
+        "booking_url": "https://www.booking.com/searchresults.html?ss=Tokyo, Japan",
+        "alternatives": [
+          {
+            "id": "alt_hotel_budget",
+            "title": "3-Star Cozy Hotel in Tokyo, Japan",
+            "description": "Comfortable 3-star hotel near metro transit hub",
+            "cost_per_person": 160.89,
+            "total_cost": 321.78,
+            "category": "lodging",
+            "flexibility_tier": "flexible",
+            "booking_url": null,
+            "rating": 4.5
+          }
+        ]
+      },
+      {
+        "id": "item_day1_act1",
+        "day": 1,
+        "category": "activities",
+        "title": "Free Visit to Senso-ji Temple & Asakusa Quarter & Parks",
+        "description": "Explore Senso-ji Temple & Asakusa Quarter in Tokyo, Japan. Tokyo's oldest historic Buddhist temple with traditional shopping street.",
+        "cost_per_person": 0.0,
+        "total_cost": 0.0,
+        "locked": false,
+        "swappable": true,
+        "flexibility_tier": "free_alt",
+        "tags": [
+          "#culture",
+          "#temple"
+        ],
+        "location": null,
+        "location_name": "Senso-ji Temple & Asakusa Quarter, Tokyo, Japan",
+        "lat": null,
+        "lng": null,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Senso-ji+Temple+&+Asakusa+Quarter+Tokyo,+Japan",
+        "photo_url": null,
+        "time_slot": null,
+        "source_api": "Google Places / Viator API",
+        "booking_url": null,
+        "alternatives": [
+          {
+            "id": "alt_day1_free_walk",
+            "title": "Free Self-Guided Walk at Senso-ji Temple & Asakusa Quarter",
+            "description": "Explore independently with free audio map.",
+            "cost_per_person": 0.0,
+            "total_cost": 0.0,
+            "category": "activities",
+            "flexibility_tier": "free_alt",
+            "booking_url": null,
+            "rating": 4.5
+          }
+        ]
+      },
+      {
+        "id": "item_day1_dine_standard",
+        "day": 1,
+        "category": "dining",
+        "title": "Dinner at Sukiyabashi Jiro & Asakusa Izakaya",
+        "description": "Local culinary feast featuring regional wine pairings at Ginza & Asakusa, Tokyo.",
+        "cost_per_person": 20.0,
+        "total_cost": 40.0,
+        "locked": false,
+        "swappable": true,
+        "flexibility_tier": "standard",
+        "tags": [
+          "#dining",
+          "#local"
+        ],
+        "location": null,
+        "location_name": "Ginza & Asakusa, Tokyo, Tokyo, Japan",
+        "lat": null,
+        "lng": null,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Sukiyabashi+Jiro+&+Asakusa+Izakaya+Tokyo,+Japan",
+        "photo_url": null,
+        "time_slot": null,
+        "source_api": "Google Places / OpenTable API",
+        "booking_url": null,
+        "alternatives": [
+          {
+            "id": "alt_day1_dine_casual",
+            "title": "Casual Local Bistro in Ginza & Asakusa, Tokyo",
+            "description": "Authentic neighborhood dishes at budget prices.",
+            "cost_per_person": 20.0,
+            "total_cost": 40.0,
+            "category": "dining",
+            "flexibility_tier": "flexible",
+            "booking_url": null,
+            "rating": 4.5
+          }
+        ]
+      },
+      {
+        "id": "item_day2_act1",
+        "day": 2,
+        "category": "activities",
+        "title": "Free Visit to Meiji Shrine & Harajuku Fashion District & Parks",
+        "description": "Explore Meiji Shrine & Harajuku Fashion District in Tokyo, Japan. Serene forest sanctuary in the heart of Tokyo.",
+        "cost_per_person": 0.0,
+        "total_cost": 0.0,
+        "locked": false,
+        "swappable": true,
+        "flexibility_tier": "free_alt",
+        "tags": [
+          "#culture",
+          "#shrine"
+        ],
+        "location": null,
+        "location_name": "Meiji Shrine & Harajuku Fashion District, Tokyo, Japan",
+        "lat": null,
+        "lng": null,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Meiji+Shrine+&+Harajuku+Fashion+District+Tokyo,+Japan",
+        "photo_url": null,
+        "time_slot": null,
+        "source_api": "Google Places / Viator API",
+        "booking_url": null,
+        "alternatives": [
+          {
+            "id": "alt_day2_free_walk",
+            "title": "Free Self-Guided Walk at Meiji Shrine & Harajuku Fashion District",
+            "description": "Explore independently with free audio map.",
+            "cost_per_person": 0.0,
+            "total_cost": 0.0,
+            "category": "activities",
+            "flexibility_tier": "free_alt",
+            "booking_url": null,
+            "rating": 4.5
+          }
+        ]
+      },
+      {
+        "id": "item_day2_dine_standard",
+        "day": 2,
+        "category": "dining",
+        "title": "Dinner at Shibuya Ramen Street Tasting",
+        "description": "Local culinary feast featuring regional wine pairings at Shibuya, Tokyo.",
+        "cost_per_person": 20.0,
+        "total_cost": 40.0,
+        "locked": false,
+        "swappable": true,
+        "flexibility_tier": "standard",
+        "tags": [
+          "#dining",
+          "#local"
+        ],
+        "location": null,
+        "location_name": "Shibuya, Tokyo, Tokyo, Japan",
+        "lat": null,
+        "lng": null,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Shibuya+Ramen+Street+Tasting+Tokyo,+Japan",
+        "photo_url": null,
+        "time_slot": null,
+        "source_api": "Google Places / OpenTable API",
+        "booking_url": null,
+        "alternatives": [
+          {
+            "id": "alt_day2_dine_casual",
+            "title": "Casual Local Bistro in Shibuya, Tokyo",
+            "description": "Authentic neighborhood dishes at budget prices.",
+            "cost_per_person": 20.0,
+            "total_cost": 40.0,
+            "category": "dining",
+            "flexibility_tier": "flexible",
+            "booking_url": null,
+            "rating": 4.5
+          }
+        ]
+      },
+      {
+        "id": "item_day3_act1",
+        "day": 3,
+        "category": "activities",
+        "title": "Free Visit to Shinjuku Gyoen National Garden & Skyscraper Deck & Parks",
+        "description": "Explore Shinjuku Gyoen National Garden & Skyscraper Deck in Tokyo, Japan. Expansive green park with panoramic observatory.",
+        "cost_per_person": 0.0,
+        "total_cost": 0.0,
+        "locked": false,
+        "swappable": true,
+        "flexibility_tier": "free_alt",
+        "tags": [
+          "#culture",
+          "#views"
+        ],
+        "location": null,
+        "location_name": "Shinjuku Gyoen National Garden & Skyscraper Deck, Tokyo, Japan",
+        "lat": null,
+        "lng": null,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Shinjuku+Gyoen+National+Garden+&+Skyscraper+Deck+Tokyo,+Japan",
+        "photo_url": null,
+        "time_slot": null,
+        "source_api": "Google Places / Viator API",
+        "booking_url": null,
+        "alternatives": [
+          {
+            "id": "alt_day3_free_walk",
+            "title": "Free Self-Guided Walk at Shinjuku Gyoen National Garden & Skyscraper Deck",
+            "description": "Explore independently with free audio map.",
+            "cost_per_person": 0.0,
+            "total_cost": 0.0,
+            "category": "activities",
+            "flexibility_tier": "free_alt",
+            "booking_url": null,
+            "rating": 4.5
+          }
+        ]
+      },
+      {
+        "id": "item_day3_dine_splurge",
+        "day": 3,
+        "category": "dining",
+        "title": "Dinner at Omoide Yokocho Yakitori Alley",
+        "description": "Local culinary feast featuring regional wine pairings at Shinjuku, Tokyo.",
+        "cost_per_person": 50.0,
+        "total_cost": 100.0,
+        "locked": false,
+        "swappable": true,
+        "flexibility_tier": "splurge",
+        "tags": [
+          "#splurge",
+          "#dining",
+          "#gourmet"
+        ],
+        "location": null,
+        "location_name": "Shinjuku, Tokyo, Tokyo, Japan",
+        "lat": null,
+        "lng": null,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Omoide+Yokocho+Yakitori+Alley+Tokyo,+Japan",
+        "photo_url": null,
+        "time_slot": null,
+        "source_api": "Google Places / OpenTable API",
+        "booking_url": null,
+        "alternatives": [
+          {
+            "id": "alt_day3_dine_casual",
+            "title": "Casual Local Bistro in Shinjuku, Tokyo",
+            "description": "Authentic neighborhood dishes at budget prices.",
+            "cost_per_person": 20.0,
+            "total_cost": 40.0,
+            "category": "dining",
+            "flexibility_tier": "flexible",
+            "booking_url": null,
+            "rating": 4.5
+          }
+        ]
+      },
+      {
+        "id": "item_day4_act1",
+        "day": 4,
+        "category": "activities",
+        "title": "Free Visit to Tsukiji Outer Market & Odaiba Bay Cruise & Parks",
+        "description": "Explore Tsukiji Outer Market & Odaiba Bay Cruise in Tokyo, Japan. Fresh seafood markets and futuristic bayfront.",
+        "cost_per_person": 0.0,
+        "total_cost": 0.0,
+        "locked": false,
+        "swappable": true,
+        "flexibility_tier": "free_alt",
+        "tags": [
+          "#culture",
+          "#market"
+        ],
+        "location": null,
+        "location_name": "Tsukiji Outer Market & Odaiba Bay Cruise, Tokyo, Japan",
+        "lat": null,
+        "lng": null,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Tsukiji+Outer+Market+&+Odaiba+Bay+Cruise+Tokyo,+Japan",
+        "photo_url": null,
+        "time_slot": null,
+        "source_api": "Google Places / Viator API",
+        "booking_url": null,
+        "alternatives": [
+          {
+            "id": "alt_day4_free_walk",
+            "title": "Free Self-Guided Walk at Tsukiji Outer Market & Odaiba Bay Cruise",
+            "description": "Explore independently with free audio map.",
+            "cost_per_person": 0.0,
+            "total_cost": 0.0,
+            "category": "activities",
+            "flexibility_tier": "free_alt",
+            "booking_url": null,
+            "rating": 4.5
+          }
+        ]
+      },
+      {
+        "id": "item_day4_dine_standard",
+        "day": 4,
+        "category": "dining",
+        "title": "Dinner at Tsukiji Fresh Sushi Counter",
+        "description": "Local culinary feast featuring regional wine pairings at Tsukiji Waterfront, Tokyo.",
+        "cost_per_person": 20.0,
+        "total_cost": 40.0,
+        "locked": false,
+        "swappable": true,
+        "flexibility_tier": "standard",
+        "tags": [
+          "#dining",
+          "#local"
+        ],
+        "location": null,
+        "location_name": "Tsukiji Waterfront, Tokyo, Tokyo, Japan",
+        "lat": null,
+        "lng": null,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Tsukiji+Fresh+Sushi+Counter+Tokyo,+Japan",
+        "photo_url": null,
+        "time_slot": null,
+        "source_api": "Google Places / OpenTable API",
+        "booking_url": null,
+        "alternatives": [
+          {
+            "id": "alt_day4_dine_casual",
+            "title": "Casual Local Bistro in Tsukiji Waterfront, Tokyo",
+            "description": "Authentic neighborhood dishes at budget prices.",
+            "cost_per_person": 20.0,
+            "total_cost": 40.0,
+            "category": "dining",
+            "flexibility_tier": "flexible",
+            "booking_url": null,
+            "rating": 4.5
+          }
+        ]
+      },
+      {
+        "id": "item_day5_act1",
+        "day": 5,
+        "category": "activities",
+        "title": "Free Visit to Senso-ji Temple & Asakusa Quarter & Parks",
+        "description": "Explore Senso-ji Temple & Asakusa Quarter in Tokyo, Japan. Tokyo's oldest historic Buddhist temple with traditional shopping street.",
+        "cost_per_person": 0.0,
+        "total_cost": 0.0,
+        "locked": false,
+        "swappable": true,
+        "flexibility_tier": "free_alt",
+        "tags": [
+          "#culture",
+          "#temple"
+        ],
+        "location": null,
+        "location_name": "Senso-ji Temple & Asakusa Quarter, Tokyo, Japan",
+        "lat": null,
+        "lng": null,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Senso-ji+Temple+&+Asakusa+Quarter+Tokyo,+Japan",
+        "photo_url": null,
+        "time_slot": null,
+        "source_api": "Google Places / Viator API",
+        "booking_url": null,
+        "alternatives": [
+          {
+            "id": "alt_day5_free_walk",
+            "title": "Free Self-Guided Walk at Senso-ji Temple & Asakusa Quarter",
+            "description": "Explore independently with free audio map.",
+            "cost_per_person": 0.0,
+            "total_cost": 0.0,
+            "category": "activities",
+            "flexibility_tier": "free_alt",
+            "booking_url": null,
+            "rating": 4.5
+          }
+        ]
+      },
+      {
+        "id": "item_day5_dine_standard",
+        "day": 5,
+        "category": "dining",
+        "title": "Dinner at Sukiyabashi Jiro & Asakusa Izakaya",
+        "description": "Local culinary feast featuring regional wine pairings at Ginza & Asakusa, Tokyo.",
+        "cost_per_person": 20.0,
+        "total_cost": 40.0,
+        "locked": false,
+        "swappable": true,
+        "flexibility_tier": "standard",
+        "tags": [
+          "#dining",
+          "#local"
+        ],
+        "location": null,
+        "location_name": "Ginza & Asakusa, Tokyo, Tokyo, Japan",
+        "lat": null,
+        "lng": null,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Sukiyabashi+Jiro+&+Asakusa+Izakaya+Tokyo,+Japan",
+        "photo_url": null,
+        "time_slot": null,
+        "source_api": "Google Places / OpenTable API",
+        "booking_url": null,
+        "alternatives": [
+          {
+            "id": "alt_day5_dine_casual",
+            "title": "Casual Local Bistro in Ginza & Asakusa, Tokyo",
+            "description": "Authentic neighborhood dishes at budget prices.",
+            "cost_per_person": 20.0,
+            "total_cost": 40.0,
+            "category": "dining",
+            "flexibility_tier": "flexible",
+            "booking_url": null,
+            "rating": 4.5
+          }
+        ]
+      }
+    ],
+    "change_reason": "Initial trip generated for Tokyo, Japan ($1,650, 5 days, 2 travelers)"
+  }
+]

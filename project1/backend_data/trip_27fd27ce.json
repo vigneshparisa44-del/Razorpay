@@ -1,0 +1,479 @@
+[
+  {
+    "trip_id": "27fd27ce",
+    "version": 1,
+    "created_at": 1787644543.6642292,
+    "updated_at": 1787644543.6642299,
+    "constraints": {
+      "destination": "Lisbon, Portugal",
+      "start_date": "2026-09-01",
+      "end_date": "2026-09-05",
+      "duration_days": 5,
+      "group_size": 2,
+      "total_budget": 3800.0,
+      "currency": "USD",
+      "tier": "luxury",
+      "preferences": [
+        "5-star hotel",
+        "private yacht sunset",
+        "michelin dining"
+      ]
+    },
+    "category_caps": {
+      "flights": 836.0,
+      "lodging": 1710.0,
+      "activities": 0.0,
+      "dining": 1240.0,
+      "transit": 0.0,
+      "buffer": 14.0
+    },
+    "items": [
+      {
+        "id": "item_flight_01",
+        "day": 0,
+        "category": "flights",
+        "title": "Round-trip Flight to Lisbon, Portugal",
+        "description": "First/Business Class seat with priority lounge access via Amadeus API",
+        "cost_per_person": 418.0,
+        "total_cost": 836.0,
+        "locked": true,
+        "swappable": false,
+        "flexibility_tier": "hard",
+        "tags": [
+          "#flight",
+          "#essential"
+        ],
+        "location": null,
+        "location_name": "Lisbon, Portugal Main International Airport",
+        "lat": null,
+        "lng": null,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Lisbon,+Portugal+International+Airport",
+        "photo_url": null,
+        "time_slot": null,
+        "source_api": "Amadeus Flight API",
+        "booking_url": "https://www.google.com/travel/flights?q=flights+to+Lisbon, Portugal",
+        "alternatives": []
+      },
+      {
+        "id": "item_hotel_01",
+        "day": 0,
+        "category": "lodging",
+        "title": "5-Star Grand Palace & Spa Lisbon, Portugal (4 Nights)",
+        "description": "5-star luxury suite with private spa, panoramic city views & butler service (Booking.com API)",
+        "cost_per_person": 855.0,
+        "total_cost": 1710.0,
+        "locked": false,
+        "swappable": true,
+        "flexibility_tier": "splurge",
+        "tags": [
+          "#hotel",
+          "#luxury"
+        ],
+        "location": null,
+        "location_name": "Lisbon, Portugal City Center",
+        "lat": null,
+        "lng": null,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=5-Star+Grand+Palace+&+Spa+Lisbon,+Portugal",
+        "photo_url": null,
+        "time_slot": null,
+        "source_api": "Booking.com API",
+        "booking_url": "https://www.booking.com/searchresults.html?ss=Lisbon, Portugal",
+        "alternatives": [
+          {
+            "id": "alt_hotel_budget",
+            "title": "3-Star Cozy Hotel in Lisbon, Portugal",
+            "description": "Comfortable 3-star hotel near metro transit hub",
+            "cost_per_person": 555.75,
+            "total_cost": 1111.5,
+            "category": "lodging",
+            "flexibility_tier": "flexible",
+            "booking_url": null,
+            "rating": 4.5
+          }
+        ]
+      },
+      {
+        "id": "item_day1_act1",
+        "day": 1,
+        "category": "activities",
+        "title": "Free Self-Guided Walk at Alfama Historic Quarter & Tram 28",
+        "description": "Explore independently with free audio map.",
+        "cost_per_person": 0.0,
+        "total_cost": 0.0,
+        "locked": false,
+        "swappable": true,
+        "flexibility_tier": "free_alt",
+        "tags": [
+          "#culture",
+          "#culture"
+        ],
+        "location": null,
+        "location_name": "Alfama Historic Quarter & Tram 28, Lisbon, Portugal",
+        "lat": null,
+        "lng": null,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Alfama+Historic+Quarter+&+Tram+28+Lisbon,+Portugal",
+        "photo_url": null,
+        "time_slot": null,
+        "source_api": "Google Places / Viator API",
+        "booking_url": null,
+        "alternatives": [
+          {
+            "id": "alt_day1_free_walk",
+            "title": "Free Self-Guided Walk at Alfama Historic Quarter & Tram 28",
+            "description": "Explore independently with free audio map.",
+            "cost_per_person": 0.0,
+            "total_cost": 0.0,
+            "category": "activities",
+            "flexibility_tier": "free_alt",
+            "booking_url": null,
+            "rating": 4.5
+          }
+        ]
+      },
+      {
+        "id": "item_day1_dine_standard",
+        "day": 1,
+        "category": "dining",
+        "title": "Dinner at Traditional Local Tasca",
+        "description": "Local culinary feast featuring regional wine pairings at Alfama & Baixa Quarter.",
+        "cost_per_person": 100.0,
+        "total_cost": 200.0,
+        "locked": false,
+        "swappable": true,
+        "flexibility_tier": "standard",
+        "tags": [
+          "#dining",
+          "#local"
+        ],
+        "location": null,
+        "location_name": "Alfama & Baixa Quarter, Lisbon, Portugal",
+        "lat": null,
+        "lng": null,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Traditional+Local+Tasca+Lisbon,+Portugal",
+        "photo_url": null,
+        "time_slot": null,
+        "source_api": "Google Places / OpenTable API",
+        "booking_url": null,
+        "alternatives": [
+          {
+            "id": "alt_day1_dine_casual",
+            "title": "Casual Local Bistro in Alfama & Baixa Quarter",
+            "description": "Authentic neighborhood dishes at budget prices.",
+            "cost_per_person": 20.0,
+            "total_cost": 40.0,
+            "category": "dining",
+            "flexibility_tier": "flexible",
+            "booking_url": null,
+            "rating": 4.5
+          }
+        ]
+      },
+      {
+        "id": "item_day2_act1",
+        "day": 2,
+        "category": "activities",
+        "title": "Free Self-Guided Walk at Pena National Palace & Sintra Mountain Excursion",
+        "description": "Explore independently with free audio map.",
+        "cost_per_person": 0.0,
+        "total_cost": 0.0,
+        "locked": false,
+        "swappable": true,
+        "flexibility_tier": "free_alt",
+        "tags": [
+          "#culture",
+          "#excursion"
+        ],
+        "location": null,
+        "location_name": "Pena National Palace & Sintra Mountain Excursion, Lisbon, Portugal",
+        "lat": null,
+        "lng": null,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Pena+National+Palace+&+Sintra+Mountain+Excursion+Lisbon,+Portugal",
+        "photo_url": null,
+        "time_slot": null,
+        "source_api": "Google Places / Viator API",
+        "booking_url": null,
+        "alternatives": [
+          {
+            "id": "alt_day2_free_walk",
+            "title": "Free Self-Guided Walk at Pena National Palace & Sintra Mountain Excursion",
+            "description": "Explore independently with free audio map.",
+            "cost_per_person": 0.0,
+            "total_cost": 0.0,
+            "category": "activities",
+            "flexibility_tier": "free_alt",
+            "booking_url": null,
+            "rating": 4.5
+          }
+        ]
+      },
+      {
+        "id": "item_day2_dine_standard",
+        "day": 2,
+        "category": "dining",
+        "title": "Dinner at Time Out Market Gourmet Tasting",
+        "description": "Local culinary feast featuring regional wine pairings at Sintra & Cais do Sodr\u00e9.",
+        "cost_per_person": 100.0,
+        "total_cost": 200.0,
+        "locked": false,
+        "swappable": true,
+        "flexibility_tier": "standard",
+        "tags": [
+          "#dining",
+          "#local"
+        ],
+        "location": null,
+        "location_name": "Sintra & Cais do Sodr\u00e9, Lisbon, Portugal",
+        "lat": null,
+        "lng": null,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Time+Out+Market+Gourmet+Tasting+Lisbon,+Portugal",
+        "photo_url": null,
+        "time_slot": null,
+        "source_api": "Google Places / OpenTable API",
+        "booking_url": null,
+        "alternatives": [
+          {
+            "id": "alt_day2_dine_casual",
+            "title": "Casual Local Bistro in Sintra & Cais do Sodr\u00e9",
+            "description": "Authentic neighborhood dishes at budget prices.",
+            "cost_per_person": 20.0,
+            "total_cost": 40.0,
+            "category": "dining",
+            "flexibility_tier": "flexible",
+            "booking_url": null,
+            "rating": 4.5
+          }
+        ]
+      },
+      {
+        "id": "item_day3_act1",
+        "day": 3,
+        "category": "activities",
+        "title": "Free Self-Guided Walk at Bel\u00e9m Tower & Jer\u00f3nimos Monastery",
+        "description": "Explore independently with free audio map.",
+        "cost_per_person": 0.0,
+        "total_cost": 0.0,
+        "locked": false,
+        "swappable": true,
+        "flexibility_tier": "free_alt",
+        "tags": [
+          "#culture",
+          "#heritage"
+        ],
+        "location": null,
+        "location_name": "Bel\u00e9m Tower & Jer\u00f3nimos Monastery, Lisbon, Portugal",
+        "lat": null,
+        "lng": null,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Bel\u00e9m+Tower+&+Jer\u00f3nimos+Monastery+Lisbon,+Portugal",
+        "photo_url": null,
+        "time_slot": null,
+        "source_api": "Google Places / Viator API",
+        "booking_url": null,
+        "alternatives": [
+          {
+            "id": "alt_day3_free_walk",
+            "title": "Free Self-Guided Walk at Bel\u00e9m Tower & Jer\u00f3nimos Monastery",
+            "description": "Explore independently with free audio map.",
+            "cost_per_person": 0.0,
+            "total_cost": 0.0,
+            "category": "activities",
+            "flexibility_tier": "free_alt",
+            "booking_url": null,
+            "rating": 4.5
+          }
+        ]
+      },
+      {
+        "id": "item_day3_dine_splurge",
+        "day": 3,
+        "category": "dining",
+        "title": "Michelin Gourmet Tasting at Feitoria Waterfront Michelin Restaurant",
+        "description": "Local culinary feast featuring regional wine pairings at Bel\u00e9m Waterfront.",
+        "cost_per_person": 220.0,
+        "total_cost": 440.0,
+        "locked": false,
+        "swappable": true,
+        "flexibility_tier": "splurge",
+        "tags": [
+          "#splurge",
+          "#dining",
+          "#gourmet"
+        ],
+        "location": null,
+        "location_name": "Bel\u00e9m Waterfront, Lisbon, Portugal",
+        "lat": null,
+        "lng": null,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Pasteis+de+Bel\u00e9m+&+Seafood+Bar+Lisbon,+Portugal",
+        "photo_url": null,
+        "time_slot": null,
+        "source_api": "Google Places / OpenTable API",
+        "booking_url": null,
+        "alternatives": [
+          {
+            "id": "alt_day3_dine_casual",
+            "title": "Casual Local Bistro in Bel\u00e9m Waterfront",
+            "description": "Authentic neighborhood dishes at budget prices.",
+            "cost_per_person": 20.0,
+            "total_cost": 40.0,
+            "category": "dining",
+            "flexibility_tier": "flexible",
+            "booking_url": null,
+            "rating": 4.5
+          }
+        ]
+      },
+      {
+        "id": "item_day4_act1",
+        "day": 4,
+        "category": "activities",
+        "title": "Free Self-Guided Walk at Miradouro de Santa Luzia & Sunset Harbor Cruise",
+        "description": "Explore independently with free audio map.",
+        "cost_per_person": 0.0,
+        "total_cost": 0.0,
+        "locked": false,
+        "swappable": true,
+        "flexibility_tier": "free_alt",
+        "tags": [
+          "#culture",
+          "#views"
+        ],
+        "location": null,
+        "location_name": "Miradouro de Santa Luzia & Sunset Harbor Cruise, Lisbon, Portugal",
+        "lat": null,
+        "lng": null,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Miradouro+de+Santa+Luzia+&+Sunset+Harbor+Cruise+Lisbon,+Portugal",
+        "photo_url": null,
+        "time_slot": null,
+        "source_api": "Google Places / Viator API",
+        "booking_url": null,
+        "alternatives": [
+          {
+            "id": "alt_day4_free_walk",
+            "title": "Free Self-Guided Walk at Miradouro de Santa Luzia & Sunset Harbor Cruise",
+            "description": "Explore independently with free audio map.",
+            "cost_per_person": 0.0,
+            "total_cost": 0.0,
+            "category": "activities",
+            "flexibility_tier": "free_alt",
+            "booking_url": null,
+            "rating": 4.5
+          }
+        ]
+      },
+      {
+        "id": "item_day4_dine_standard",
+        "day": 4,
+        "category": "dining",
+        "title": "Dinner at Neighborhood Tapas & Wine Lounge",
+        "description": "Local culinary feast featuring regional wine pairings at Chiado & Bairro Alto.",
+        "cost_per_person": 100.0,
+        "total_cost": 200.0,
+        "locked": false,
+        "swappable": true,
+        "flexibility_tier": "standard",
+        "tags": [
+          "#dining",
+          "#local"
+        ],
+        "location": null,
+        "location_name": "Chiado & Bairro Alto, Lisbon, Portugal",
+        "lat": null,
+        "lng": null,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Neighborhood+Tapas+&+Wine+Lounge+Lisbon,+Portugal",
+        "photo_url": null,
+        "time_slot": null,
+        "source_api": "Google Places / OpenTable API",
+        "booking_url": null,
+        "alternatives": [
+          {
+            "id": "alt_day4_dine_casual",
+            "title": "Casual Local Bistro in Chiado & Bairro Alto",
+            "description": "Authentic neighborhood dishes at budget prices.",
+            "cost_per_person": 20.0,
+            "total_cost": 40.0,
+            "category": "dining",
+            "flexibility_tier": "flexible",
+            "booking_url": null,
+            "rating": 4.5
+          }
+        ]
+      },
+      {
+        "id": "item_day5_act1",
+        "day": 5,
+        "category": "activities",
+        "title": "Free Self-Guided Walk at Alfama Historic Quarter & Tram 28",
+        "description": "Explore independently with free audio map.",
+        "cost_per_person": 0.0,
+        "total_cost": 0.0,
+        "locked": false,
+        "swappable": true,
+        "flexibility_tier": "free_alt",
+        "tags": [
+          "#culture",
+          "#culture"
+        ],
+        "location": null,
+        "location_name": "Alfama Historic Quarter & Tram 28, Lisbon, Portugal",
+        "lat": null,
+        "lng": null,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Alfama+Historic+Quarter+&+Tram+28+Lisbon,+Portugal",
+        "photo_url": null,
+        "time_slot": null,
+        "source_api": "Google Places / Viator API",
+        "booking_url": null,
+        "alternatives": [
+          {
+            "id": "alt_day5_free_walk",
+            "title": "Free Self-Guided Walk at Alfama Historic Quarter & Tram 28",
+            "description": "Explore independently with free audio map.",
+            "cost_per_person": 0.0,
+            "total_cost": 0.0,
+            "category": "activities",
+            "flexibility_tier": "free_alt",
+            "booking_url": null,
+            "rating": 4.5
+          }
+        ]
+      },
+      {
+        "id": "item_day5_dine_standard",
+        "day": 5,
+        "category": "dining",
+        "title": "Dinner at Traditional Local Tasca",
+        "description": "Local culinary feast featuring regional wine pairings at Alfama & Baixa Quarter.",
+        "cost_per_person": 100.0,
+        "total_cost": 200.0,
+        "locked": false,
+        "swappable": true,
+        "flexibility_tier": "standard",
+        "tags": [
+          "#dining",
+          "#local"
+        ],
+        "location": null,
+        "location_name": "Alfama & Baixa Quarter, Lisbon, Portugal",
+        "lat": null,
+        "lng": null,
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Traditional+Local+Tasca+Lisbon,+Portugal",
+        "photo_url": null,
+        "time_slot": null,
+        "source_api": "Google Places / OpenTable API",
+        "booking_url": null,
+        "alternatives": [
+          {
+            "id": "alt_day5_dine_casual",
+            "title": "Casual Local Bistro in Alfama & Baixa Quarter",
+            "description": "Authentic neighborhood dishes at budget prices.",
+            "cost_per_person": 20.0,
+            "total_cost": 40.0,
+            "category": "dining",
+            "flexibility_tier": "flexible",
+            "booking_url": null,
+            "rating": 4.5
+          }
+        ]
+      }
+    ],
+    "change_reason": "Initial trip generated for Lisbon, Portugal ($3,800, 5 days, 2 travelers)"
+  }
+]

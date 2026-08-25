@@ -1,0 +1,378 @@
+[
+  {
+    "trip_id": "f8b7a03f",
+    "version": 1,
+    "created_at": 1787644296.756041,
+    "updated_at": 1787644296.756041,
+    "constraints": {
+      "destination": "Lisbon, Portugal",
+      "start_date": "2026-09-01",
+      "end_date": "2026-09-05",
+      "duration_days": 5,
+      "group_size": 2,
+      "total_budget": 3800.0,
+      "currency": "USD",
+      "tier": "luxury",
+      "preferences": [
+        "5-star hotel",
+        "private yacht sunset",
+        "michelin dining"
+      ]
+    },
+    "category_caps": {
+      "flights": 836.0,
+      "lodging": 1710.0,
+      "activities": 54.0,
+      "dining": 1100.0,
+      "transit": 0.0,
+      "buffer": 100.0
+    },
+    "items": [
+      {
+        "id": "item_flight_01",
+        "day": 0,
+        "category": "flights",
+        "title": "Round-trip Flight to Lisbon, Portugal",
+        "description": "First/Business Class seat with lounge access via Amadeus API",
+        "cost_per_person": 418.0,
+        "total_cost": 836.0,
+        "locked": true,
+        "swappable": false,
+        "flexibility_tier": "hard",
+        "tags": [
+          "#flight",
+          "#essential"
+        ],
+        "location": null,
+        "location_name": "Lisbon, Portugal International Airport (LIS)",
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Lisbon, Portugal+International+Airport",
+        "time_slot": null,
+        "source_api": "Amadeus Flight API",
+        "booking_url": "https://www.google.com/travel/flights?q=flights+to+Lisbon, Portugal",
+        "alternatives": []
+      },
+      {
+        "id": "item_hotel_01",
+        "day": 0,
+        "category": "lodging",
+        "title": "5-Star Four Seasons / Ritz-Carlton Palace Lisbon, Portugal (4 Nights)",
+        "description": "5-star luxury penthouse suite with private spa & butler service (Booking.com Luxury API)",
+        "cost_per_person": 855.0,
+        "total_cost": 1710.0,
+        "locked": false,
+        "swappable": true,
+        "flexibility_tier": "splurge",
+        "tags": [
+          "#hotel",
+          "#luxury"
+        ],
+        "location": null,
+        "location_name": "Avenida da Liberdade, Lisbon, Portugal",
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=5-Star+Four+Seasons+/+Ritz-Carlton+Palace+Lisbon,+Portugal+Lisbon, Portugal",
+        "time_slot": null,
+        "source_api": "Booking.com API",
+        "booking_url": "https://www.booking.com/searchresults.html?ss=Lisbon, Portugal",
+        "alternatives": [
+          {
+            "id": "alt_hotel_budget",
+            "title": "3-Star Cozy Hotel in Lisbon, Portugal",
+            "description": "Comfortable 3-star hotel near metro transit hub",
+            "cost_per_person": 555.75,
+            "total_cost": 1111.5,
+            "category": "lodging",
+            "flexibility_tier": "flexible",
+            "booking_url": null,
+            "rating": 4.5
+          }
+        ]
+      },
+      {
+        "id": "item_day1_act1",
+        "day": 1,
+        "category": "activities",
+        "title": "Free Self-Guided Walking Tour & Miradouro Views",
+        "description": "Self-guided audio map touring historic neighborhoods and scenic lookouts.",
+        "cost_per_person": 0.0,
+        "total_cost": 0.0,
+        "locked": false,
+        "swappable": true,
+        "flexibility_tier": "free_alt",
+        "tags": [
+          "#culture",
+          "#walking"
+        ],
+        "location": null,
+        "location_name": "Alfama & Baixa Quarter, Lisbon, Portugal",
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Alfama+Lisbon, Portugal",
+        "time_slot": null,
+        "source_api": "Viator API",
+        "booking_url": null,
+        "alternatives": [
+          {
+            "id": "alt_day1_free_walk",
+            "title": "Free Self-Guided Walking Tour & Miradouro Views",
+            "description": "Self-guided audio map touring historic neighborhoods and scenic lookouts.",
+            "cost_per_person": 0.0,
+            "total_cost": 0.0,
+            "category": "activities",
+            "flexibility_tier": "free_alt",
+            "booking_url": null,
+            "rating": 4.5
+          }
+        ]
+      },
+      {
+        "id": "item_day1_dine",
+        "day": 1,
+        "category": "dining",
+        "title": "Welcome Gourmet Feast at Top Waterfront Restaurant",
+        "description": "Multi-course seafood menu with sommelier wine pairing.",
+        "cost_per_person": 110.0,
+        "total_cost": 220.0,
+        "locked": false,
+        "swappable": true,
+        "flexibility_tier": "standard",
+        "tags": [
+          "#dining",
+          "#local"
+        ],
+        "location": null,
+        "location_name": "Cais do Sodr\u00e9 Waterfront, Lisbon, Portugal",
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Cais+do+Sodre+Lisbon, Portugal",
+        "time_slot": null,
+        "source_api": "Mock/Grounding API",
+        "booking_url": null,
+        "alternatives": []
+      },
+      {
+        "id": "item_day2_act1",
+        "day": 2,
+        "category": "activities",
+        "title": "Self-Guided Sintra Day Trip (Public Train)",
+        "description": "Take public train and explore palace gardens independently.",
+        "cost_per_person": 12.0,
+        "total_cost": 24.0,
+        "locked": false,
+        "swappable": true,
+        "flexibility_tier": "free_alt",
+        "tags": [
+          "#culture",
+          "#excursion"
+        ],
+        "location": null,
+        "location_name": "Pena National Palace, Sintra",
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Pena+National+Palace+Sintra",
+        "time_slot": null,
+        "source_api": "Google Places / Viator API",
+        "booking_url": null,
+        "alternatives": [
+          {
+            "id": "alt_day2_free_excursion",
+            "title": "Self-Guided Sintra Day Trip (Public Train)",
+            "description": "Take public train and explore palace gardens independently.",
+            "cost_per_person": 12.0,
+            "total_cost": 24.0,
+            "category": "activities",
+            "flexibility_tier": "free_alt",
+            "booking_url": null,
+            "rating": 4.5
+          }
+        ]
+      },
+      {
+        "id": "item_day2_dine",
+        "day": 2,
+        "category": "dining",
+        "title": "Time Out Market Gourmet Tasting",
+        "description": "Sample local cheeses, cured meats, and craft beverages.",
+        "cost_per_person": 60.0,
+        "total_cost": 120.0,
+        "locked": false,
+        "swappable": true,
+        "flexibility_tier": "standard",
+        "tags": [
+          "#dining"
+        ],
+        "location": null,
+        "location_name": "Time Out Market, Mercado da Ribeira",
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Time+Out+Market+Lisbon",
+        "time_slot": null,
+        "source_api": "Mock/Grounding API",
+        "booking_url": null,
+        "alternatives": []
+      },
+      {
+        "id": "item_day3_act1",
+        "day": 3,
+        "category": "activities",
+        "title": "Sunset at Scenic Hilltop Viewpoint (Miradouro de Santa Luzia)",
+        "description": "Watch the sunset from famous public hilltop vantage points with local refreshments.",
+        "cost_per_person": 0.0,
+        "total_cost": 0.0,
+        "locked": false,
+        "swappable": true,
+        "flexibility_tier": "free_alt",
+        "tags": [
+          "#sunset",
+          "#view"
+        ],
+        "location": null,
+        "location_name": "Doca de Santo Amaro Marina, Lisbon, Portugal",
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Doca+de+Santo+Amaro+Lisbon, Portugal",
+        "time_slot": null,
+        "source_api": "Mock/Grounding API",
+        "booking_url": null,
+        "alternatives": [
+          {
+            "id": "alt_day3_sunset_view",
+            "title": "Sunset at Scenic Hilltop Viewpoint (Miradouro de Santa Luzia)",
+            "description": "Watch the sunset from famous public hilltop vantage points with local refreshments.",
+            "cost_per_person": 0.0,
+            "total_cost": 0.0,
+            "category": "activities",
+            "flexibility_tier": "free_alt",
+            "booking_url": null,
+            "rating": 4.5
+          }
+        ]
+      },
+      {
+        "id": "item_day3_dine_splurge",
+        "day": 3,
+        "category": "dining",
+        "title": "2-Michelin-Star Tasting Menu at Belcanto",
+        "description": "7-course fine dining extravaganza by Chef Jos\u00e9 Avillez with rare wine pairings.",
+        "cost_per_person": 220.0,
+        "total_cost": 440.0,
+        "locked": false,
+        "swappable": true,
+        "flexibility_tier": "splurge",
+        "tags": [
+          "#splurge",
+          "#dining",
+          "#michelin"
+        ],
+        "location": null,
+        "location_name": "Belcanto, Largo de S\u00e3o Carlos, Lisbon",
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Belcanto+Lisbon",
+        "time_slot": null,
+        "source_api": "Mock/Grounding API",
+        "booking_url": null,
+        "alternatives": [
+          {
+            "id": "alt_day3_dine_mid",
+            "title": "Elevated Seafood Grill & Local Wine Bar",
+            "description": "Fresh seafood platter in a chic contemporary dining room.",
+            "cost_per_person": 55.0,
+            "total_cost": 110.0,
+            "category": "dining",
+            "flexibility_tier": "standard",
+            "booking_url": null,
+            "rating": 4.5
+          }
+        ]
+      },
+      {
+        "id": "item_day4_act1",
+        "day": 4,
+        "category": "activities",
+        "title": "Self-Guided Wine Bar Hopping & Scenic Viewpoint",
+        "description": "Visit casual local wine shops and enjoy views.",
+        "cost_per_person": 15.0,
+        "total_cost": 30.0,
+        "locked": false,
+        "swappable": true,
+        "flexibility_tier": "free_alt",
+        "tags": [
+          "#wine",
+          "#tasting"
+        ],
+        "location": null,
+        "location_name": "Chiado Wine Quarter, Lisbon, Portugal",
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Chiado+Lisbon, Portugal",
+        "time_slot": null,
+        "source_api": "Mock/Grounding API",
+        "booking_url": null,
+        "alternatives": [
+          {
+            "id": "alt_day4_wine_free",
+            "title": "Self-Guided Wine Bar Hopping & Scenic Viewpoint",
+            "description": "Visit casual local wine shops and enjoy views.",
+            "cost_per_person": 15.0,
+            "total_cost": 30.0,
+            "category": "activities",
+            "flexibility_tier": "free_alt",
+            "booking_url": null,
+            "rating": 4.5
+          }
+        ]
+      },
+      {
+        "id": "item_day4_dine",
+        "day": 4,
+        "category": "dining",
+        "title": "Fado Palace Dinner Show",
+        "description": "Live traditional Fado music in an 18th-century palace hall.",
+        "cost_per_person": 90.0,
+        "total_cost": 180.0,
+        "locked": false,
+        "swappable": true,
+        "flexibility_tier": "standard",
+        "tags": [
+          "#culture",
+          "#dining"
+        ],
+        "location": null,
+        "location_name": "Clube de Fado, Bairro Alto, Lisbon, Portugal",
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Clube+de+Fado+Lisbon, Portugal",
+        "time_slot": null,
+        "source_api": "Mock/Grounding API",
+        "booking_url": null,
+        "alternatives": []
+      },
+      {
+        "id": "item_day5_act1",
+        "day": 5,
+        "category": "activities",
+        "title": "Self-Guided Private Boutiques Shopping & Art Galleries & Scenic Spot",
+        "description": "Explore at your own pace with a curated offline audio map.",
+        "cost_per_person": 0.0,
+        "total_cost": 0.0,
+        "locked": false,
+        "swappable": true,
+        "flexibility_tier": "free_alt",
+        "tags": [
+          "#shopping"
+        ],
+        "location": null,
+        "location_name": "Pran\u00e7a do Com\u00e9rcio & Principe Real, Lisbon, Portugal",
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Principe+Real+Lisbon, Portugal",
+        "time_slot": null,
+        "source_api": "Mock/Grounding API",
+        "booking_url": null,
+        "alternatives": []
+      },
+      {
+        "id": "item_day5_dine",
+        "day": 5,
+        "category": "dining",
+        "title": "Rooftop Departure Brunch & Cocktails",
+        "description": "Panoramic 360 rooftop lunch overlooking city & coast.",
+        "cost_per_person": 70.0,
+        "total_cost": 140.0,
+        "locked": false,
+        "swappable": true,
+        "flexibility_tier": "standard",
+        "tags": [],
+        "location": null,
+        "location_name": "Miradouro Rooftop Lounge, Lisbon, Portugal",
+        "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Rooftop+Bar+Lisbon, Portugal",
+        "time_slot": null,
+        "source_api": "Mock/Grounding API",
+        "booking_url": null,
+        "alternatives": []
+      }
+    ],
+    "change_reason": "Initial trip generated for Lisbon, Portugal ($3,800, 5 days, 2 travelers)"
+  }
+]
